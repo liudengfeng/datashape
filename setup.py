@@ -16,7 +16,7 @@ def read(fname):
 
 setup(
     name='datashape',
-    version=versioneer.get_version(),
+    version='0.5.4', #versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     author='Continuum Analytics',
     author_email='blaze-dev@continuum.io',
